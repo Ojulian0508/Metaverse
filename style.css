@@ -1,0 +1,163 @@
+html, body {
+    overflow-x: hidden;
+  }
+  body{
+    
+    margin: 0;
+    font-family:"poppins" ;
+
+  }
+  h1, h2, h3, h4{
+    font-family:"Orbitron" ;
+    color: #ffff;
+  }
+  p{
+    font-family: "poppins";
+    color: #ffff;
+  }
+ 
+
+.img-1{
+    height: 800px;
+}
+.light {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(138,43,226, 0.6), transparent);
+    filter: blur(100px);
+    z-index: -1;
+  }
+ 
+.light-top-right{
+    width: 200px;
+    bottom: 250px;
+    right: -0px;
+}
+  .light-top-center {
+    top: -150px;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  .light-bottom-left {
+   
+    bottom: -150px;
+    left: -150px;
+  }
+  .light-bottom-right {
+    width: 200px;
+    bottom: 150px;
+    right: -0px;
+  }
+.btn1{
+    background:linear-gradient(135deg, #D10ED1, #10A3DA); 
+    
+    
+
+}
+
+.seccion2 .btn1{
+    width: 200px;
+}
+
+span{
+    /* Aplica el gradiente de fondo */
+  background: linear-gradient(45deg, #D10ED1, #10A3DA);
+  /* Hace que el fondo se aplique solo al texto */
+  -webkit-background-clip: text;
+  /* Oculta el color original del texto */
+  -webkit-text-fill-color: transparent;
+  
+}
+.seccion1{
+    height: 600px;
+}
+.seccion2{
+    position: relative;
+    height: 500px;
+}
+.seccion2 .light-bottom-right {
+    width: 200px;
+    ;
+    bottom: -250px;
+    right: -150px;
+}
+
+.seccion3{
+    height: 1300px;
+}
+.card1{
+    background-color:#090823 ;
+    width:350px; 
+    
+}
+.card1 img{
+    width: 320px;
+    
+}
+.img4 img{
+    width: 100%;
+    
+}
+.seccion4{
+    height: 900px;
+    position: relative;
+}
+.seccion4 .light-top-left{
+    top:-100px;
+    left: -200px;
+}
+.seccion4 .light-bottom-right{
+
+    
+    bottom: -50px;
+    right: -150px;
+}
+.pie-de-pagina{
+    height:350px;   
+    background-color: #090823;
+}
+
+.redes a{
+    color: #ffff;
+    
+}
+.btn{
+    color: #ffff;
+
+}
+
+@media (max-width: 767.98px) { 
+
+.nav{
+  display: none;
+}
+  
+.seccion1{
+  height: auto;
+  margin-bottom: 0;
+ 
+}
+.seccion2{
+  margin-top:0 ;
+  height: auto;
+ margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+.seccion3{
+  height: auto;
+  justify-content: center;
+  
+}
+.seccion4{
+  height: auto;
+  margin:100px 0;
+
+}
+.pie-de-pagina{
+  height: auto;
+}
+
+
+}
+
